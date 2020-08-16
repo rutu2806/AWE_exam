@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Login</title>
+    <script src="2.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row bg-dark" style="height:300px ;">
+            <div class="col-7 bg-primary" ;>
+                <div class="mt-5 d-flex justify-content-center align-items-center text-light"
+                    style="font-size: large;border-bottom-style: solid;">
+                    LOGIN</div>
+                <div id="commentBlock">
+                    <input class="form-control mt-2" type="text" placeholder="Username" id="inp1">
+                    <input class="form-control mt-1" type="password" placeholder="Password" id="inp2">
+                </div>
+                <div><input class="btn btn-block bg-success mt-2 text-light" onclick="validation()" type="button"
+                        id="post" value="Submit"></div>
+            </div>
+
+            <div class="col-5 bg-dark text-light">
+                <div id="outputcomment">
+                    <div id="commentContainer">
+                        <div style="border: steelblue solid; border-radius: 5px;">Sample Comment</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
